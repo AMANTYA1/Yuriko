@@ -1,6 +1,6 @@
 ## Innexia 
 
-## Guys Please Give me start And Don't Forget Forked Repo
+## Guys Please Give me star And Don't Forget Forked Repo
 
 [Group](t.me/SiderzChat)
 [Channel](t.me/SiderzBot)
