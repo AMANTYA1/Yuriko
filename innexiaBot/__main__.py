@@ -217,10 +217,10 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        text="Hey👋 I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
-                uptime"
-        photo="https://telegra.ph/file/647cd4b88dad5350ad71d.gif"
-        update.effective_message.reply_photo(message.chat.id, photo, text)
+        update.effective_message.reply_text(
+            "👋 I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+                uptime
+            ),
             parse_mode=ParseMode.HTML,
         )
 
