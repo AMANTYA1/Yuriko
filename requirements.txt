@@ -69,4 +69,4 @@ better_profanity
 nudepy
 motor
 cloudscraper
-tzlocal==3.0
+tzlocal==
