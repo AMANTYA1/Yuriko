@@ -1,5 +1,6 @@
 future
 emoji
+tzlocal==2.0
 lxml
 wget
 gtts
