@@ -1,7 +1,7 @@
 {
       "name": "innexiaBot",
       "description": "Telegram group management bot.",
-      "logo": "https://telegra.ph/file/8f6b24120aab8490dca45.jpg",
+      "logo": "https://telegra.ph/file/0c2a666a4d94ad1616593.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "innexi"
       ],   
-   "repository": "https://github.com/QueenArzoo/innexiaBot.git",
+   "repository": "https://github.com/DarkCybers/innexia.git",
    "addons": [
       {
          "options": {
@@ -50,7 +50,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "797768146"
+         "value": "1956381927"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -67,12 +67,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "HEROGAMERS1"
+         "value": "ProErrorXD"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "AwesomeSupport"
+         "value": "SiderzChat"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -90,7 +90,7 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001319484169"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
@@ -115,7 +115,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "797768146"
+         "value": "1956381927"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
