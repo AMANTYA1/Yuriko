@@ -12,7 +12,7 @@
 
 # ❤️ Support
 <a href="https://t.me/DeeCodeBots"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="t.me/DeCodeSupport"><img src="https://img.shields.io/badge/Join-Telegram-blue.svg?logo=telegram"></a>
+<a href="t.me/DeCodeSupport"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
 > ⭐️ Thanks to everyone who starred Innexia, That is the greatest pleasure we have !
