@@ -49,3 +49,11 @@ $ cp sample_config.env config.env
 </h3>
 
 
+## CREDIT
+```
+ERROR
+LOUIS
+BLAZE
+HARSH
+```
+
