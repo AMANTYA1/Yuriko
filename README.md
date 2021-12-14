@@ -15,10 +15,6 @@
 <a href="t.me/DeCodeSupport"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
-> ⭐️ Thanks to everyone who starred Innexia, That is the greatest pleasure we have !
-
-## Click The Image And Deploy Your Bot
-
 ## ✨ Heroku Deploy ✨
 The easiest way to deploy this Bot is via Heroku.
 
