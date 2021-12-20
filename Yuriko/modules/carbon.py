@@ -24,19 +24,19 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/ceb116e569f2255fedb6d.jpg"
+MEMEK = "https://telegra.ph/file/7e82b584cfe447ee154d7.jpg"
 
-@pbot.on_message(filters.command("repo"))
-async def repo(_, message):
+@pbot.on_message(filters.command("alive"))
+async def alive(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **Hey I'm Akki Robot** 
+        caption=f"""✨ **Hᴇʏ I Aᴍ Yᴜʀɪᴋᴏ Rᴏʙᴏᴛ** 
 
-**Owner repo : [sena-ex](https://t.me/excrybaby)**
-**Python Version :** `{y()}`
-**Library Version :** `{o}`
-**Telethon Version :** `{s}`
-**Pyrogram Version :** `{z}`
+**🧑‍💻 Powered By : [TeamDeeCode](https://t.me/TeamDeeCode)**
+**🐍 Python Version :** `{y()}`
+**📃 Library Version :** `{o}`
+**♻️ Telethon Version :** `{s}`
+**💥 Pyrogram Version :** `{z}`
 
 **Create your own with click button bellow.**
 """,
@@ -44,7 +44,7 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="t.me/piroXpower"), 
+                        "Repo", url="https://GitHub.com/TeamDeeCode/Yuriko"), 
                     InlineKeyboardButton(
                         "Support", url="https://t.me/DeCodeSupport")
                 ]
