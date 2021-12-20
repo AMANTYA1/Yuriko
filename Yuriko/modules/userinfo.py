@@ -585,7 +585,7 @@ Examples:
 
 *What is that health thingy?*
 
- `Come and see` [HP System explained](https://t.me/YurikoLogs/2)
+ `Come and see` [HP System explained](https://t.me/YurikoLogger/5)
 
 *✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
 """
