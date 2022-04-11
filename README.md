@@ -1,6 +1,6 @@
 #Note this is old repo of KIGO now time to update
 
-<h1 align="center"><b> ⚡ KIGO Robot ⚡ </b></h1>
+<h1 align="center"><b> ⚡ UPDATING ⚡ </b></h1>
 
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
@@ -8,9 +8,9 @@
   <a href="https://github.com/AMANTYA1/YURIKO_2.0/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
 </p>
 
-<p align="center"><a href="https://t.me/YurikoRobot"><img src="(https://telegra.ph/file/e641d3dd2ccdce6a3d934.jpg)" width="400"></a></p>
+<p align="center"><a href="https://t.me/KIGO_OMFOBOt"><img src="(https://telegra.ph/file/e641d3dd2ccdce6a3d934.jpg)" width="400"></a></p>
 
-## Available on Telegram as [@Yuriko](https://t.me/YurikoRobot)
+## Available on Telegram as [@KIGO](https://t.me/KIGO_OMFOBOt)
 
 # ❤️ Support
 <a href="https://t.me/BotDuniyaXd"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
