@@ -32,7 +32,7 @@ async def alive(_, message):
         photo=MEMEK,
         caption=f"""✨ **Hᴇʏ I Aᴍ Yᴜʀɪᴋᴏ Rᴏʙᴏᴛ** 
 
-**🧑‍💻 Powered By : [TeamDeeCode](https://t.me/TeamDeeCode)**
+**🧑‍💻 Powered By : [BotDuniya](https://t.me/BotDuniyaXd)**
 **🐍 Python Version :** `{y()}`
 **📃 Library Version :** `{o}`
 **♻️ Telethon Version :** `{s}`
@@ -44,9 +44,9 @@ async def alive(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://GitHub.com/TeamDeeCode/Yuriko"), 
+                        "Repo", url="https://github.com/AMANTYA1/YURIKO_2.0"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/DeCodeSupport")
+                        "Support", url="https://t.me/godzilla_chatting")
                 ]
             ]
         )
