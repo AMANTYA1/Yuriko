@@ -26,3 +26,4 @@ The easiest way to deploy this Bot is via Heroku.
 ```
 
 ### 🧪 Get STRING_SESSION from below (Easy method) :
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://t.me/TELETHON_PYROGRAM_STRINGBOT) ``Pyrogram``
