@@ -1267,7 +1267,7 @@ __help__ = """
 
 ✗ /welcomehelp - `view more formatting information for custom welcome/goodbye messages.`
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: BᴏᴛDᴜɴɪʏᴀ!*
 """
 
 NEW_MEM_HANDLER = MessageHandler(
