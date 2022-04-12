@@ -26,7 +26,7 @@ async def carbon_func(_, message):
 
 MEMEK = "https://telegra.ph/file/7e82b584cfe447ee154d7.jpg"
 
-@pbot.on_message(filters.command("alive"))
+@pbot.on_message(filters.command("repo"))
 async def alive(_, message):
     await message.reply_photo(
         photo=MEMEK,
