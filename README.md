@@ -12,7 +12,7 @@
 
 ## Available on Telegram as this is repo private [@KIGO](https://t.me/KIGO_OMFOBOt)
 
-##This is Yuriko  [@Yuriko](https://t.me/Yurikobot)
+## This is Yuriko  [@Yuriko](https://t.me/Yurikobot)
 
 # ❤️ Support
 <a href="https://t.me/BotDuniyaXd"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
