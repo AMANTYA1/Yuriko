@@ -100,7 +100,7 @@ buttons = [
     [
         InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),
         InlineKeyboardButton(
-            text="Iɴʟɪɴᴇ", switch_inline_query_current_chat=""
+            text="SᴏᴜʀᴄᴇCᴏᴅᴇ", url="https://github.com/AMANTYA1/Yuriko"
         ),
     ],
     [
@@ -481,8 +481,8 @@ def yurikorobot_about_callback(update, context):
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
             f"\n\n✗ `3.) add` @YurikoXPlugin `to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The Yuriko Music And Join Support Group @DeCodeSupport*"
-            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*",
+            f"\n\n✗ *Lets Enjoy The Yuriko Music And Join Support Group @godzilla_chatting*"
+            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: BᴏᴛDᴜɴɪʏᴀ!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -516,7 +516,7 @@ def yurikorobot_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/YurikoLogs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/Deecodenews"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/BotDuniyaXd"),
                  ],
                  [
                     InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/godzilla_chatting"),
@@ -556,7 +556,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..😻 I'm *yurikorobot*
-                 \nHere is the [🔥Source Code🔥](https://github.com/AMANTYA1/YURIKO_2.0) .""",
+                 \nHere is the [🔥Source Code🔥](https://github.com/AMANTYA1/Yuriko) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
