@@ -503,24 +503,24 @@ def famezbot_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp")]]
+                [[InlineKeyboardButton(text="Back", callback_data="famezbot_basichelp")]]
             ),
         )    
-    elif query.data == "yurikorobot_support":
+    elif query.data == "https://t.me/FAMEZxWORLD":
         query.message.edit_text(
-            text="* YURIKO Support Chats*"
+            text="* famez Support Chats*"
             
             "\n\n✗ `Join Support Group/Channel`",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/YurikoLogs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/BotDuniyaXd"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/famezLogs"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="https://t.me/FAMEZxWORLD"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/godzilla_chatting"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/BotDuniyaXD"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/FAMEZxWORLD"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/FAMEZxWORLD"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
@@ -529,20 +529,20 @@ def famezbot_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "yurikorobot_credit":
+    elif query.data == "famezbot_credit":
         query.message.edit_text(
             text=f"<b> CREDIT FOR YURIKO DEV'S</b>\n"
             
-            f"\n`✗ Here Some Developers Helping in Making The Yuriko Bot`",
+            f"\n`✗ Here Some Developers Helping in Making The famez Bot`",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sʜᴜʙʜᴀɴꜱʜᴜ", url="t.me/Shubhanshutya"),
-                    InlineKeyboardButton(text="Sᴜᴘᴜɴ", url="t.me/supunma"),
+                    InlineKeyboardButton(text="owner", url="https://t.me/iMi_SuMiT_Op"),
+                    InlineKeyboardButton(text="developer", url="https://t.me/iMi_SuMiT_Op"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
+                    InlineKeyboardButton(text="Back", callback_data="famezbot_basichelp"),
                  
                  ]
                 ]
@@ -556,7 +556,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..😻 I'm *yurikorobot*
-                 \nHere is the [🔥Source Code🔥](https://github.com/AMANTYA1/Yuriko) .""",
+                 \nHere is the [🔥Source Code🔥](https://github.com/famezop/Yuriko) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -614,7 +614,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ 📢 ",
-                            url="https://t.me/{}".format(SUPPORT_CHAT),
+                            url="https://t.me/FAMEZxWORLD",
                         )
                     ],
                 ]
