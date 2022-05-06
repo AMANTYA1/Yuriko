@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
+yurikorobot_IMG = "https://te.legra.ph/file/5240578d4bdf606b3e567.jpg"
 
 PM_START_TEXT = """
 *👋 Hello {} !*
@@ -90,7 +90,7 @@ PM_START_TEXT = """
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────────
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: BᴏᴛDᴜɴɪʏᴀ!*
+*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ:"https://t.me/iMi_SuMiT_Op"*
 """
 
 buttons = [
@@ -98,19 +98,19 @@ buttons = [
         InlineKeyboardButton(text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),
+        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="@famezbot"),
         InlineKeyboardButton(
-            text="SᴏᴜʀᴄᴇCᴏᴅᴇ", url="https://github.com/AMANTYA1/Yuriko"
+            text="SᴏᴜʀᴄᴇCᴏᴅᴇ", url="https://github.com/famezop/Yuriko"
         ),
     ],
     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="yurikorobot_"),
+        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="famezbot_"),
         InlineKeyboardButton(
             text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="yurikorobot_basichelp"
         ),
     ],
     [
-        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/YurikoRobot?startgroup=true"),
+        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/famezbot?startgroup=true"),
     ],
 ]
 
@@ -126,7 +126,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @Shubhanshutya's 💕"""
+ "https://t.me/iMi_SuMiT_Op"💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -242,12 +242,12 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            yurikorobot_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            famezbot_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/godzilla_chatting")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/FAMEZxWORLD")]]
             ),
         )
         
@@ -375,11 +375,11 @@ def help_button(update, context):
 
 
 
-def yurikorobot_about_callback(update, context):
+def famezbot_about_callback(update, context):
     query = update.callback_query
-    if query.data == "yurikorobot_":
+    if query.data == "famezbot_":
         query.message.edit_text(
-            text=""" *YURIKO* - `A bot to manage your groups with additional features!`
+            text=""" *FAMEZ* - `A bot to manage your groups with additional features!`
             \n`Here the basic help regarding use of yurikorobot.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
@@ -390,17 +390,17 @@ def yurikorobot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="https://t.me/godzilla_chatting"
+                            text="Bᴜɢ'ꜱ", url="https://t.me/FAMEZxWORLD"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/BotDuniyaXD/23"
+                            text="owner", url="https://t.me/iMi_SuMiT_Op"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")],
                 ]
             ),
         )
-    elif query.data == "yurikorobot_back":
+    elif query.data == "famezbot_back":
         first_name = update.effective_user.first_name
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
@@ -414,13 +414,13 @@ def yurikorobot_about_callback(update, context):
                 timeout=60,
                 disable_web_page_preview=False,
         )
-    elif query.data == "yurikorobot_basichelp":
+    elif query.data == "famezbot_basichelp":
         query.message.edit_text(
             text=f"*Here's basic Help regarding* *How to use Me?*"
             
             f"\n\n✗ `Firstly Add` {dispatcher.bot.first_name} `to your group by pressing` [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n✗ `After adding promote me manually with full rights for faster experience.`\n"
-            f"\n✗ `Than send` `/admincache@YurikoRobot` `in that chat to refresh admin list in My database.`\n"
+            f"\n✗ `Than send` `/admincache@famezbot` `in that chat to refresh admin list in My database.`\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -428,15 +428,15 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Aᴅᴍɪɴ", callback_data="yurikorobot_admin"),
-                    InlineKeyboardButton(text="Nᴏᴛᴇꜱ", callback_data="yurikorobot_notes"),
+                    InlineKeyboardButton(text="Aᴅᴍɪɴ", callback_data="famezbot_admin"),
+                    InlineKeyboardButton(text="Nᴏᴛᴇꜱ", callback_data="famezbot_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="yurikorobot_support"),
-                    InlineKeyboardButton(text="Cʀᴇᴅɪᴛ", callback_data="yurikorobot_credit"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="famezbot_support"),
+                    InlineKeyboardButton(text="Cʀᴇᴅɪᴛ", callback_data="famezbot_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="yurikorobot_back"),
+                    InlineKeyboardButton(text="Back", callback_data="famezbot_back"),
                  
                  ]
                 ]
@@ -446,7 +446,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, YurikoRobot now ready to manage your group.`"
+            f"\n✗ `Congragulations, famezbot now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
@@ -456,11 +456,11 @@ def yurikorobot_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp")]]
+                [[InlineKeyboardButton(text="Back", callback_data="famezbot_basichelp")]]
             ),
         )
 
-    elif query.data == "yurikorobot_notes":
+    elif query.data == "famezbot_notes":
         query.message.edit_text(
             text=f"<b> Setting Up Notes</b>"
             
@@ -469,7 +469,7 @@ def yurikorobot_about_callback(update, context):
             f"\n\n`✗ You can also set buttons for notes and filters (refer help menu)`",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp")]]
+                [[InlineKeyboardButton(text="Back", callback_data="famezbot_basichelp")]]
             ),
         )
     elif query.data == "yurikorobot_asst":
@@ -479,21 +479,21 @@ def yurikorobot_about_callback(update, context):
             f"\n*SETUP ASSISTANT*"
             f"\n\n✗ `1.) first, add me to your group.`"
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
-            f"\n\n✗ `3.) add` @YurikoXPlugin `to your group:`"
+            f"\n\n✗ `3.) add` @jblvc `to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The Yuriko Music And Join Support Group @godzilla_chatting*"
-            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: BᴏᴛDᴜɴɪʏᴀ!*",
+            f"\n\n✗ *Lets Enjoy The jbl Music And Join Support Group @godzilla_chatting*"
+            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ:"https://t.me/iMi_SuMiT_Op*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")]]
+                [[InlineKeyboardButton(text="Back", callback_data="famezbot_back")]]
             ),
         )
-    elif query.data == "yurikorobot_admin":
+    elif query.data == "famezbot_admin":
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, YurikoRobot now ready to manage your group.`"
+            f"\n✗ `Congragulations, famezbot now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
