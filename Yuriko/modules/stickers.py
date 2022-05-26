@@ -354,7 +354,7 @@ def makepack_internal(
         success = context.bot.create_new_sticker_set(
             user.id,
             packname,
-            f"{name}'s by @Zaid2_Robot's{'animated ' if tgs_sticker else 'video ' if webm_sticker else ''}kang pack{extra_version}",
+            f"{name}'s by @Kigo_omfobot's{'animated ' if tgs_sticker else 'video ' if webm_sticker else ''}kang pack{extra_version}",
             tgs_sticker=tgs_sticker or None,
             webm_sticker=webm_sticker or None,
             png_sticker=png_sticker or None,
