@@ -64,7 +64,7 @@ bs4
 redis
 pySmartDL
 bing_image_downloader
-#search_engine_parser
+search-engine-parser[cli]
 pytz
 jikanpy
 tswift
