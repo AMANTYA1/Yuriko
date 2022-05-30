@@ -51,14 +51,9 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1715491834"
+         "value": "1920507972"
      },
 
-      "STRING_SESSION": {
-         "description": "Fill with telethon string session.",
-         "required": true,
-         "value": "" 
-      },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
         "value": ""
@@ -79,12 +74,12 @@
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "BrayDenXD"
+         "value": "Shubhanshutya"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "Decodesupport"
+         "value": "godzilla_chatting"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
