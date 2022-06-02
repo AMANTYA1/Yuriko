@@ -79,18 +79,18 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
+yumi_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 
 PM_START_TEXT = """
-👋 Hello {}
+*👋 Hello {}*
 
-Hey There My Name Is YumiXBot [I](https://telegra.ph/file/fdfea288dccdeba59c9a4.jpg) Am Here To Help You Manage Your Groups!
-Hit /Help To Find Out More About How To Use Me To My Full Potential!
+Hey There My Name Is "YumiXBot* [I](https://telegra.ph/file/fdfea288dccdeba59c9a4.jpg) Am Here To Help You Manage Your Groups!
+*Hit /Help To Find Out More About How To Use Me To My Full Potential!*
 ────────────────────────
 乂 Ping Time: {}
 乂 {} User, Database {} Chats.
 ────────────────────────
-Powered By: @BotDuniyaXd
+*Powered By: @BotDuniyaXd*
 """
 
 buttons = [
@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            yurikorobot_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            yumi_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
