@@ -379,7 +379,7 @@ def yurikorobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "yurikorobot_":
         query.message.edit_text(
-            text=""" *YURIKO* - `A bot to manage your groups with additional features!`
+            text=""" *YUMI* - `A bot to manage your groups with additional features!`
             \n`Here the basic help regarding use of yurikorobot.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
@@ -446,7 +446,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, YurikoRobot now ready to manage your group.`"
+            f"\n✗ `Congragulations, @YumiXBot now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
@@ -479,9 +479,9 @@ def yurikorobot_about_callback(update, context):
             f"\n*SETUP ASSISTANT*"
             f"\n\n✗ `1.) first, add me to your group.`"
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
-            f"\n\n✗ `3.) add` @YurikoXPlugin `to your group:`"
+            f"\n\n✗ `3.) add` @YumiXPlugin `to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The Yuriko Music And Join Support Group @godzilla_chatting*"
+            f"\n\n✗ *Lets Enjoy The Yumi Music And Join Support Group @godzilla_chatting*"
             f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: BᴏᴛDᴜɴɪʏᴀ!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -493,7 +493,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, YurikoRobot now ready to manage your group.`"
+            f"\n✗ `Congragulations, YumiXBot now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
@@ -508,7 +508,7 @@ def yurikorobot_about_callback(update, context):
         )    
     elif query.data == "yurikorobot_support":
         query.message.edit_text(
-            text="* YURIKO Support Chats*"
+            text="* Yumi Support Chats*"
             
             "\n\n✗ `Join Support Group/Channel`",
             parse_mode=ParseMode.MARKDOWN,
@@ -531,7 +531,7 @@ def yurikorobot_about_callback(update, context):
         )
     elif query.data == "yurikorobot_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR YURIKO DEV'S</b>\n"
+            text=f"<b> CREDIT FOR Yumi DEV'S</b>\n"
             
             f"\n`✗ Here Some Developers Helping in Making The Yuriko Bot`",
             parse_mode=ParseMode.HTML,
@@ -555,7 +555,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *yurikorobot*
+            text=""" Hi..😻 I'm *YumiXBot*
                  \nHere is the [🔥Source Code🔥](https://github.com/AMANTYA1/Yuriko) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
